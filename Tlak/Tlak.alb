@@ -1,0 +1,82 @@
+<webalbum version="1.8.2">
+  <title>Tlak</title>
+  <description>
+    <line>Ovim slikama vidimo primjere tlaka u svakodnevnom životu</line>
+  </description>
+  <settings>
+    <photosize width="800" height="600">large</photosize>
+    <thumbsize width="80" height="60">small</thumbsize>
+    <outputdirectory>C:\Users\Family\Desktop\multi\Tlak\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Slate</colourscheme>
+    <pagecolor>10526880</pagecolor>
+    <textcolor>0</textcolor>
+    <linkcolor>15000804</linkcolor>
+    <hotlinkcolor>16777215</hotlinkcolor>
+    <thumbnailrows>5</thumbnailrows>
+    <thumbnailcols>2</thumbnailcols>
+    <navigationbelowphoto>True</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <title>knjiga</title>
+      <caption>
+        <line>knjiga tlači jastuk</line>
+      </caption>
+      <filename>C:\Users\Family\Desktop\multi\1.jpg</filename>
+    </photo>
+    <photo>
+      <title>knjiga original</title>
+      <filename>C:\Users\Family\Desktop\multi\image0 (5).jpeg</filename>
+      <rotation>right</rotation>
+    </photo>
+    <photo>
+      <title>pumpa za loptu</title>
+      <caption>
+        <line>pumpa za loptu omogućava napuhavanje lopte tako da upuhuje zrak u loptu</line>
+      </caption>
+      <filename>C:\Users\Family\Desktop\multi\2.jpg</filename>
+    </photo>
+    <photo>
+      <title>pumpa original</title>
+      <filename>C:\Users\Family\Desktop\multi\image1 (4).jpeg</filename>
+    </photo>
+    <photo>
+      <title>nož i naranča</title>
+      <caption>
+        <line>oštrica noža može prerezati naranču zbog toga što ima malu dodirnu površinu</line>
+      </caption>
+      <filename>C:\Users\Family\Desktop\multi\3.jpg</filename>
+    </photo>
+    <photo>
+      <title>nož original</title>
+      <filename>C:\Users\Family\Desktop\multi\image2 (1).jpeg</filename>
+      <rotation>right</rotation>
+    </photo>
+    <photo>
+      <title>spužva</title>
+      <caption>
+        <line>ruka djeluje silom na spužvu, stvara se tlak</line>
+      </caption>
+      <filename>C:\Users\Family\Desktop\multi\4.jpg</filename>
+    </photo>
+    <photo>
+      <title>spužva original</title>
+      <filename>C:\Users\Family\Desktop\multi\image3 (1).jpeg</filename>
+    </photo>
+    <photo>
+      <title>slamka</title>
+      <caption>
+        <line>slamkom uvlačimo sok u usta kako bi ga popili</line>
+      </caption>
+      <filename>C:\Users\Family\Desktop\multi\5.jpg</filename>
+    </photo>
+    <photo>
+      <title>sok origial</title>
+      <filename>C:\Users\Family\Desktop\multi\image4.jpeg</filename>
+      <rotation>right</rotation>
+    </photo>
+  </photographs>
+</webalbum>
