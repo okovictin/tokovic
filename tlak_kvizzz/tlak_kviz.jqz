@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>tin</dc:creator>
+    <dc:title>Tlak</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>Tlak</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Dva ronioca nalaze &amp;#x003C;img src=&quot;scuba.png&quot; alt=&quot;scuba.png&quot; title=&quot;scuba&quot; width=&quot;450&quot; height=&quot;350&quot; style=&quot;display: block; margin-left: auto; margin-right: auto; text-align: center;&quot;/&amp;#x003E;se u moru. Ronilac A je na dubini od 10 metara, a ronilac B na dubini od 20 metara. Kako se odnose hidrostatski tlakovi koje oni osje&amp;#x0107;aju?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Ronilac B osje&amp;#x0107;a dvostruko ve&amp;#x0107;i tlak od ronioca A.</text><feedback>Hidrostatski tlak je proporcionalan dubini teku&amp;#x0107;ine, pa dvostruko ve&amp;#x0107;a dubina zna&amp;#x010D;i dvostruko ve&amp;#x0107;i tlak.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Ronilac A osje&amp;#x0107;a dvostruko ve&amp;#x0107;i tlak od ronioca B.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Oba ronioca osje&amp;#x0107;aju isti tlak.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Koja je osnovna m&amp;#x003C;img src=&quot;Blaise_pascal.jpg&quot; alt=&quot;Blaise_pascal.jpg&quot; title=&quot;Blaise_pascal&quot; width=&quot;300&quot; height=&quot;314&quot; style=&quot;display: block; margin-left: auto; margin-right: auto; text-align: center;&quot;/&amp;#x003E;jerna jedinica za tlak u Me&amp;#x0111;unarodnom sustavu jedinica (SI)?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Newton (N)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Bar (bar)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Paskal (Pa)</text><feedback>Paskal je slu&amp;#x017E;bena jedinica za tlak nazvana po Blaiseu Pascalu. Definira se kao N/m^2</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Atmosferski tlak uzrokuje?&amp;#x003C;img src=&quot;kako-nas-atmosfera-stiti.jpg&quot; alt=&quot;kako-nas-atmosfera-stiti.jpg&quot; title=&quot;kako-nas-atmosfera-stiti&quot; width=&quot;450&quot; height=&quot;350&quot; style=&quot;display: block; margin-left: auto; margin-right: auto; text-align: center;&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Mjesec</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Sunce</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Zemljina gravitacija i zrak</text><feedback>Zrak pod djelovanjem gravitacije stvara tlak.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Ni&amp;#x0161;ta od navedenog</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Tri posude potpuno razli&amp;#x010D;itog oblika napunjene su vodom do jednake visine h. Dna svih triju posuda imaju potpuno istu povr&amp;#x0161;inu A. Kakav je hidrostatski tlak vode na dno tih posuda?&amp;#x003C;img src=&quot;en-liquids-hydrostatic-pressure-water-vessel-shape.jpg&quot; alt=&quot;en-liquids-hydrostatic-pressure-water-vessel-shape.jpg&quot; title=&quot;en-liquids-hydrostatic-pressure-water-vessel-shape&quot; width=&quot;450&quot; height=&quot;350&quot; style=&quot;display: block; margin-left: auto; margin-right: auto; text-align: center;&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Najve&amp;#x0107;i je tlak u onoj posudi koja zbog svog oblika sadr&amp;#x017E;i najve&amp;#x0107;u masu vode.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Najve&amp;#x0107;i tlak je u naju&amp;#x017E;oj posudi.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Tlak na dno je svugdje jednak.</text><feedback>Hidrostatski tlak ovisi o gusto&amp;#x0107;i teku&amp;#x0107;ine i dubini tj. visini stupca. Oblik posude je nebitan.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Premalo informacija da bi donijeli zaklju&amp;#x010D;ak.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Na mali klip hidrauli&amp;#x010D;ke dizalice djeluje sila od 100 N, a povr&amp;#x0161;ina klipa iznosi 0,02 m&amp;#x00B2;. Povr&amp;#x0161;ina velikog klipa iznosi 0,20 m&amp;#x00B2;. Kolika sila djeluje na veliki klip?&amp;#x003C;img src=&quot;hyd.png&quot; alt=&quot;hyd.png&quot; title=&quot;hyd&quot; width=&quot;450&quot; height=&quot;345&quot; style=&quot;display: block; margin-left: auto; margin-right: auto; text-align: center;&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>100 N</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>0.1 N</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>10000 N</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>1000 N</text><feedback>Prema formuli F1/A1 = F2/A2</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Kviz s ponu&amp;#x0111;enim odgovorima</exercise-subtitle>
+<instructions>Odaberite to&amp;#x010D;an odgovor za svako pitanje.</instructions>
+<guess-correct>To&amp;#x010D;no!</guess-correct>
+<guess-incorrect>&amp;#x017D;ao mi je! Poku&amp;#x0161;ajte ponovno.</guess-incorrect>
+<partly-incorrect>Va&amp;#x0161; odgovor je djelomi&amp;#x010D;no neto&amp;#x010D;an: </partly-incorrect>
+<enter-a-guess>Molim, poku&amp;#x0161;ajte odgovoriti.</enter-a-guess>
+<next-correct-letter>Sljede&amp;#x0107;e ispravno slovo u odgovoru: </next-correct-letter>
+<correct-answers>To&amp;#x010D;ni odgovori: </correct-answers>
+<show-answer-caption>Poka&amp;#x017E;i odgovor</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>0</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>0</show-correct-first-time>
+<shuffle-questions>1</shuffle-questions>
+<shuffle-answers>1</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>1</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Va&amp;#x0161; rezultat je: </your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<correct-first-time>To&amp;#x010D;no rije&amp;#x0161;ena pitanja u prvom poku&amp;#x0161;aju su:  </correct-first-time>
+<completed-so-far>Do ovog trenutka su odgovori to&amp;#x010D;ni</completed-so-far>
+<exercise-completed>U cijelosti ste zavr&amp;#x0161;ili vje&amp;#x017E;bu.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Va&amp;#x0161;e vrijeme je isteklo!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Sadr&amp;#x017E;aj</contents-caption>
+<include-next-ex>0</include-next-ex>
+<include-contents>0</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial</font-face>
+<font-size>small</font-size>
+<page-bg-color>#ff8000</page-bg-color>
+<title-color>#ff8000</title-color>
+<ex-bg-color>#408080</ex-bg-color>
+<text-color>#ffffff</text-color>
+<link-color>#0000cc</link-color>
+<vlink-color>#0000ff</vlink-color>
+<nav-bar-color>#400080</nav-bar-color>
+<formmail-url></formmail-url>
+<email></email>
+<name-please>Molimo, unesite svoje ime:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>To&amp;#x010D;no rije&amp;#x0161;ena pitanja u prvom poku&amp;#x0161;aju su:  </correct-first-time>
+<check-caption>Provjeri</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Pomo&amp;#x0107;</hint-caption>
+<show-all-questions-caption>Poka&amp;#x017E;i sva pitanja</show-all-questions-caption>
+<show-one-by-one-caption>Poka&amp;#x017E;i pitanja jedno po jedno</show-one-by-one-caption>
+<show-also-correct>0</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>
