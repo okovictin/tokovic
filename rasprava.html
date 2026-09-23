@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rasprava: što smo zaključili?</title>
+<link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+
+<header class="naslov">
+    <h2>Fizika 7. razred &ndash; Tlak</h2>
+</header>
+
+<nav class="glavni-meni">
+    <ul>
+        <li><a href="index.html">Motivacija</a></li>
+        <li><a href="pokus.html">Pokus</a></li>
+        <li><a href="rasprava.html" class="aktivna">Rasprava</a></li>
+        <li><a href="tekst.html">Tekst i linkovi</a></li>
+        <li><a href="kviz.html">Kviz znanja</a></li>
+        <li><a href="pojmovnik.html">Pojmovnik</a></li>
+    </ul>
+</nav>
+
+<div class="sadrzaj">
+
+    <aside class="bocni-meni">
+        <ul>
+            <li><a href="index.html">Motivacija</a></li>
+            <li><a href="pokus.html">Pokus</a></li>
+            <li><a href="rasprava.html" class="aktivna">Rasprava</a></li>
+            <li><a href="tekst.html">Tekst i linkovi</a></li>
+            <li><a href="kviz.html">Kviz znanja</a></li>
+            <li><a href="pojmovnik.html">Pojmovnik</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <h1>Rasprava: što smo zaključili?</h1>
+
+        <p>
+            U pokusu smo istim utegom pritisnuli sapun - jednom
+            preko široke vrpce, jednom preko tankog konca.
+            Kod široke vrpce sa sapunom se nije ništa dogodilo.
+            Tanak konac se urezao u sapun.
+            Klikni na bilo koji odgovor kako bi odmah saznao je li točan i pročitao objašnjenje.
+        </p>
+
+        <div class="pitanje-blok">
+            <p class="tekst-pitanja">1. Zašto je konac ostavio dublji trag od vrpce, iako je sila (težina utega) bila ista?</p>
+            <label>
+                <input type="radio" name="p1" onclick="provjeriOdgovor('p1', false, 'Materijal konca i vrpce ovdje nije presudan. Da je vrpca napravljena od istog materijala kao konac, zbog veće površine trag bi i dalje bio plitak.')"> 
+                Jer je konac čvršći materijal od vrpce
+            </label>
+            <label>
+                <input type="radio" name="p1" onclick="provjeriOdgovor('p1', false, 'Vrpca ne &quot;upija&quot; silu &ndash; ona u potpunosti prenosi istu silu utega, ali je raspoređuje na veću površinu.')"> 
+                Jer je vrpca upila dio sile
+            </label>
+            <label>
+                <input type="radio" name="p1" onclick="provjeriOdgovor('p1', false, 'Brzina kojom se uteg spuštao ne mijenja činjenicu da ista težina djeluje na površinu; tlak ovisi o sili i površini, a ne o brzini.')"> 
+                Jer se konac brže gibao nego vrpca
+            </label>
+            <label>
+                <input type="radio" name="p1" onclick="provjeriOdgovor('p1', true, 'Konac djeluje na puno manju površinu sapuna. Ista sila raspoređena na manju površinu daje veći tlak, pa konac usijeca u sapun.')"> 
+                Jer konac djeluje na puno manju površinu, pa je tlak veći
+            </label>
+            <div id="povratna-p1" class="rjesenje" style="display: none;"></div>
+        </div>
+
+        <div class="pitanje-blok">
+            <p class="tekst-pitanja">2. Ako bismo stavili teži uteg na konac, trag u plastelinu bi bio:</p>
+            <label>
+                <input type="radio" name="p2" onclick="provjeriOdgovor('p2', false, 'Težina utega predstavlja silu. Povećanje sile izravno utječe na povećanje tlaka ako površina ostane ista.')"> 
+                Isti kao prije, težina ne utječe
+            </label>
+            <label>
+                <input type="radio" name="p2" onclick="provjeriOdgovor('p2', false, 'Razvučenost konca ne smanjuje djelovanje povećane sile na podlogu.')"> 
+                Plići, jer je vrpca sad "razvučenija"
+            </label>
+            <label>
+                <input type="radio" name="p2" onclick="provjeriOdgovor('p2', true, 'Površina (širina konca) ostaje ista, a sila se povećala. Veća sila uz istu površinu stvara veći tlak i dublji trag.')"> 
+                Dublji, jer je sila veća uz istu površinu
+            </label>
+            <label>
+                <input type="radio" name="p2" onclick="provjeriOdgovor('p2', false, 'Široka vrpca raspoređuje silu na veću površinu, ali ne može u potpunosti poništiti veći teret.')"> 
+                Nepromijenjen jer široka vrpca u potpunosti poništava utjecaj veće težine
+            </label>
+
+            <div id="povratna-p2" class="rjesenje" style="display: none;"></div>
+        </div>
+
+        <div class="pitanje-blok">
+            <p class="tekst-pitanja">3. Vrećica i ruksak nose istu težinu. Zašto vrećica boli više?</p>
+            <label>
+                <input type="radio" name="p3" onclick="provjeriOdgovor('p3', false, 'U zadatku je naglašeno da je težina u oboma jednaka, tako da vrećica nije teža.')"> 
+                Vrećica je uvijek teža od ruksaka
+            </label>
+            <label>
+                <input type="radio" name="p3" onclick="provjeriOdgovor('p3', true, 'Uska ručka vrećice koncentrira silu na malu površinu prstiju (veliki tlak), dok široka naramenica ruksaka tu istu silu raspoređuje na veću površinu (manji tlak).')"> 
+                Ručka vrećice djeluje na puno manju površinu kože prstiju nego široka naramenica ruksaka
+            </label>
+            <label>
+                <input type="radio" name="p3" onclick="provjeriOdgovor('p3', false, 'Način nošenja nije presudan &ndash; ključna je razlika u kontaktnoj površini preko koje se prenosi sila.')"> 
+                Ruksak nosimo objema rukama, pa je "lakši"
+            </label>
+            <label>
+                <input type="radio" name="p3" onclick="provjeriOdgovor('p3', false, 'Visina na kojoj se teret drži ne mijenja njegovu težinu niti tlak koji stvara na točku oslonca.')"> 
+                Zato što vrećica visi niže od ruksaka pa gravitacija jače djeluje na nju
+            </label>
+
+            <div id="povratna-p3" class="rjesenje" style="display: none;"></div>
+        </div>
+
+        <div class="pitanje-blok">
+            <p class="tekst-pitanja">4. Ako želimo da nas ručka vrećice manje boli, a nosimo istu težinu, trebali bismo:</p>
+            <label>
+                <input type="radio" name="p4" onclick="provjeriOdgovor('p4', true, 'Povećanjem površine na koju sila djeluje smanjuje se tlak na prste.')"> 
+                Povećati površinu ručke koja dodiruje prste
+            </label>
+            <label>
+                <input type="radio" name="p4" onclick="provjeriOdgovor('p4', false, 'Smanjenjem površine ručke tlak bi se dodatno povećao, pa bi bol bila još jača.')"> 
+                Smanjiti površinu ručke
+            </label>
+            <label>
+                <input type="radio" name="p4" onclick="provjeriOdgovor('p4', false, 'Brzina hodanja ne smanjuje tlak koji ručka vrši na tvoju ruku.')"> 
+                Nositi vrećicu brže
+            </label>
+            <label>
+                <input type="radio" name="p4" onclick="provjeriOdgovor('p4', false, 'Tlak ovisi o sili i o površini. Povećanjem površine smanjujemo bol čak i ako masa ostane potpuno jednaka.')"> 
+                To se ne može promijeniti bez smanjenja težine
+            </label>
+
+            <div id="povratna-p4" class="rjesenje" style="display: none;"></div>
+        </div>
+
+        <div class="pitanje-blok">
+            <p class="tekst-pitanja">5. Fizikalna veličina koja opisuje koliko je sila "koncentrirana" na neku površinu naziva se:</p>
+            <label>
+                <input type="radio" name="p5" onclick="provjeriOdgovor('p5', false, 'Snaga je u fizici vezana uz izvršeni rad u jedinici vremena, a ne uz raspodjelu sile na površinu.')"> 
+                Snaga
+            </label>
+            <label>
+                <input type="radio" name="p5" onclick="provjeriOdgovor('p5', true, 'Tlak je fizikalna veličina definirana kao omjer sile i površine na koju ta sila djeluje.')"> 
+                Tlak
+            </label>
+            <label>
+                <input type="radio" name="p5" onclick="provjeriOdgovor('p5', false, 'Brzina opisuje prijeđeni put u jedinici vremena.')"> 
+                Brzina
+            </label>
+            <label>
+                <input type="radio" name="p5" onclick="provjeriOdgovor('p5', false, 'Energija je sposobnost tijela da obavlja rad.')"> 
+                Energija
+            </label>
+
+            <div id="povratna-p5" class="rjesenje" style="display: none;"></div>
+        </div>
+
+        <p><a href="tekst.html">&rarr; Idi na sljedeću stranicu: Tekst i linkovi</a></p>
+    </main>
+
+</div>
+
+<footer>
+    Tin Oković&middot; Multimedijske prezentacije &middot; završni rad, 2026.
+</footer>
+
+<script>
+    function provjeriOdgovor(pitanjeId, jeTocno, objasnjenje) {
+        var okvir = document.getElementById('povratna-' + pitanjeId);
+        okvir.style.display = 'block';
+
+        if (jeTocno) {
+            okvir.style.borderLeftColor = '#2e7d32'; // zeleni rub
+            okvir.style.backgroundColor = '#e8f5e9'; // svijetlozelena pozadina
+            okvir.innerHTML = '<strong style="color: #2e7d32;">TOČNO!</strong> ' + objasnjenje;
+        } else {
+            okvir.style.borderLeftColor = '#c62828'; // crveni rub
+            okvir.style.backgroundColor = '#ffebee'; // svijetlocrvena pozadina
+            okvir.innerHTML = '<strong style="color: #c62828;">NETOČNO.</strong> ' + objasnjenje;
+        }
+    }
+</script>
+
+</body>
+</html>

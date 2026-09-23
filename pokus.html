@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pokus: ista težina, različit rezultat</title>
+<link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+
+<header class="naslov">
+    <h2>Fizika 7. razred &ndash; Tlak</h2>
+</header>
+
+<nav class="glavni-meni">
+    <ul>
+        <li><a href="index.html">Motivacija</a></li>
+        <li><a href="pokus.html" class="aktivna">Pokus</a></li>
+        <li><a href="rasprava.html">Rasprava</a></li>
+        <li><a href="tekst.html">Tekst i linkovi</a></li>
+        <li><a href="kviz.html">Kviz znanja</a></li>
+        <li><a href="pojmovnik.html">Pojmovnik</a></li>
+    </ul>
+</nav>
+
+<div class="sadrzaj">
+
+    <aside class="bocni-meni">
+        <ul>
+            <li><a href="index.html">Motivacija</a></li>
+            <li><a href="pokus.html" class="aktivna">Pokus</a></li>
+            <li><a href="rasprava.html">Rasprava</a></li>
+            <li><a href="tekst.html">Tekst i linkovi</a></li>
+            <li><a href="kviz.html">Kviz znanja</a></li>
+            <li><a href="pojmovnik.html">Pojmovnik</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <h1>Pokus: ista težina, različit rezultat</h1>
+
+        <p>
+            Na prošloj stranici postavili smo pitanje zašto tanka ručka
+            vrećice boli puno više od široke naramenice ruksaka, iako
+            nosimo istu težinu. Provjerimo to jednostavnim pokusom kod
+            kuće.
+        </p>
+
+        <h2>Što ti treba</h2>
+        <div class="materijali">
+            <ul>
+                <li>komad sapuna ili mekog voska</li>
+                <li>tanki konac (npr. zubni konac)</li>
+                <li>široka vrpca ili traka</li>
+                <li>utezi</li>
+            </ul>
+        </div>
+
+        <figure>
+            <img src="IMG_4795.png" alt="Pribor za pokus: sapun">
+            <figcaption>Sapun</figcaption>
+        </figure>
+
+        <figure>
+            <img src="IMG_4796.png" alt="Pribor za pokus: konac">
+            <figcaption>Zubni konac</figcaption>
+        </figure>
+
+        <figure>
+            <img src="IMG_4807.png" alt="Pribor za pokus: traka">
+            <figcaption>Traka</figcaption>
+        </figure>
+
+        <figure>
+            <img src="IMG_4794.png" alt="Pribor za pokus: utezi">
+            <figcaption>Utezi</figcaption>
+        </figure>
+
+        <figure>
+            <img src="skica.png" alt="Vlastiti crtež postava pokusa">
+            <figcaption>Skica</figcaption>
+        </figure>
+
+        <figure>
+            <img src="IMG_4798.png" alt="Vlastiti crtež postava pokusa">
+            <figcaption>Postav</figcaption>
+        </figure>
+
+        <h2>Kako izvesti pokus</h2>
+        <div class="koraci">
+            <ol>
+                <li>Zaveži široku traku oko utega.</li>
+                <li>Postavi sapun na stol i prebaci traku preko njega.</li>
+                <li>Pusti utege da vise s oba kraja stola.</li>
+                <li>Ponovi isto, ali sada omotaj tanki zubni konac oko utega.</li>
+                <li>Promatraj što se događa.</li>
+            </ol>
+        </div>
+
+        <div class="video-okvir">
+            <figure>
+                <video src="1.mp4" controls>
+                </video>
+                <figcaption>Pokus 1: široka traka</figcaption>
+            </figure>
+        </div>
+
+        <p class="pitanje">
+                Prije nego nastavimo: što misliš, što će se dogoditi kada stavimo konac za zube?
+            </p>
+
+            <div id="opcije-odgovora" style="text-align: center; margin-bottom: 20px;">
+                <button class="provjeri-btn" onclick="prikaziRezultate()" style="margin-right: 10px;">Konac će prerezati sapun</button>
+                <button class="provjeri-btn" onclick="prikaziRezultate()">Neće se dogoditi ništa</button>
+            </div>
+
+            <p id="poruka-nakon-odgovora" style="display: none; text-align: center; font-weight: bold; color: #0066cc;">
+            </p>
+
+            <div class="video-okvir" id="video-pokus-2" style="display: none;">
+                <figure>
+                    <video src="2.mp4" controls>
+                    </video>
+                    <figcaption>Pokus 2.1: zubni konac </figcaption>
+                </figure>
+            </div>
+
+            <div class="video-okvir" id="video-pokus-2-1" style="display: none;">
+                <figure>
+                    <video src="3.mp4" controls>
+                    </video>
+                    <figcaption>Pokus 2.2: zubni konac</figcaption>
+                </figure>
+            </div>
+
+            <p><a href="rasprava.html">&rarr; Idi na sljedeću stranicu: Rasprava</a></p>
+
+            <script>
+                function prikaziRezultate() {
+                    document.getElementById('opcije-odgovora').style.display = 'none';
+                    
+                    document.getElementById('poruka-nakon-odgovora').style.display = 'block';
+                    document.getElementById('video-pokus-2').style.display = 'block';
+                    document.getElementById('video-pokus-2-1').style.display = 'block';
+                }
+            </script> 
+    </main>
+
+</div>
+
+<footer>
+    Tin Oković &middot; Multimedijske prezentacije &middot; završni rad, 2026.
+</footer>
+
+</body>
+</html>
